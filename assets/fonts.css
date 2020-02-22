@@ -1,0 +1,34 @@
+
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato Light'), local('Lato-Light'), url('/assets/fontsFormat/latolight.woff2') format('woff2'), url('/assets/fontsFormat/latolight.woff') format('woff'), url('/assets/fontsFormat/latolight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato Regular'), local('Lato-Regular'), url('/assets/fontsFormat/latoregular.woff2') format('woff2'), url('/assets/fontsFormat/latoregular.woff') format('woff'), url('/assets/fontsFormat/latoregular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato Bold'), local('Lato-Bold'), url('/assets/fontsFormat/latobold.woff2') format('woff2'), url('/assets/fontsFormat/latobold.woff') format('woff'), url('/assets/fontsFormat/latobold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato Black'), local('Lato-Black'), url('/assets/fontsFormat/latoblack.woff2') format('woff2'), url('/assets/fontsFormat/latoblack.woff') format('woff'), url('/assets/fontsFormat/latoblack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato Black Italic'), local('Lato-BlackItalic'), url('/assets/fontsFormat/latoblackitalic.woff2') format('woff2'), url('/assets/fontsFormat/latoblackitalic.woff') format('woff'), url('/assets/fontsFormat/latoblackitalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
