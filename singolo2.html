@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Singolo2</title>
+    <link rel="stylesheet" href="assets/fonts.css" />
+    <link rel="stylesheet" href="singolo2.css" />
+  </head>
+  <body>
+
+     <!-- Sprite -->
+
+     <svg style="display: none;">
+
+        <symbol id="facebook" viewBox="0 0 96.124 96.123">
+            <g>
+                <path d="M72.089,0.02L59.624,0C45.62,0,36.57,9.285,36.57,23.656v10.907H24.037c-1.083,0-1.96,0.878-1.96,1.961v15.803
+                    c0,1.083,0.878,1.96,1.96,1.96h12.533v39.876c0,1.083,0.877,1.96,1.96,1.96h16.352c1.083,0,1.96-0.878,1.96-1.96V54.287h14.654
+                    c1.083,0,1.96-0.877,1.96-1.96l0.006-15.803c0-0.52-0.207-1.018-0.574-1.386c-0.367-0.368-0.867-0.575-1.387-0.575H56.842v-9.246
+                    c0-4.444,1.059-6.7,6.848-6.7l8.397-0.003c1.082,0,1.959-0.878,1.959-1.96V1.98C74.046,0.899,73.17,0.022,72.089,0.02z"/>
+            </g>
+        </symbol>
+
+        <symbol id="google" viewBox="0 0 604.35 604.35">
+            <g>
+                <path d="M516.375,255v-76.5h-51V255h-76.5v51h76.5v76.5h51V306h76.5v-51H516.375z M320.025,341.7l-28.051-20.4
+                c-10.2-7.649-20.399-17.85-20.399-35.7s12.75-33.15,25.5-40.8c33.15-25.5,66.3-53.55,66.3-109.65c0-53.55-33.15-84.15-51-99.45
+                h43.35l30.6-35.7h-158.1c-112.2,0-168.3,71.4-168.3,147.9c0,58.65,45.9,122.4,127.5,122.4h20.4c-2.55,7.65-10.2,20.4-10.2,33.15
+                c0,25.5,10.2,35.7,22.95,51c-35.7,2.55-102,10.2-150.45,40.8c-45.9,28.05-58.65,66.3-58.65,94.35
+                c0,58.65,53.55,114.75,168.3,114.75c137.7,0,204.001-76.5,204.001-150.449C383.775,400.35,355.725,372.3,320.025,341.7z
+                 M126.225,109.65c0-56.1,33.15-81.6,68.85-81.6c66.3,0,102,89.25,102,140.25c0,66.3-53.55,79.05-73.95,79.05
+                C159.375,247.35,126.225,168.3,126.225,109.65z M218.024,568.65c-84.15,0-137.7-38.25-137.7-94.351c0-56.1,51-73.95,66.3-81.6
+                c33.15-10.2,76.5-12.75,84.15-12.75s12.75,0,17.85,0c61.2,43.35,86.7,61.2,86.7,102C335.324,530.4,286.875,568.65,218.024,568.65z
+                "/>
+            </g>
+        </symbol>
+
+        <symbol id="twitter"  viewBox="0 -47 512.00203 512">
+            <g>
+                <path d="m191.011719 419.042969c-22.140625 0-44.929688-1.792969-67.855469-5.386719-40.378906-6.335938-81.253906-27.457031-92.820312-33.78125l-30.335938-16.585938 32.84375-10.800781c35.902344-11.804687 57.742188-19.128906 84.777344-30.597656-27.070313-13.109375-47.933594-36.691406-57.976563-67.175781l-7.640625-23.195313 6.265625.957031c-5.941406-5.988281-10.632812-12.066406-14.269531-17.59375-12.933594-19.644531-19.78125-43.648437-18.324219-64.21875l1.4375-20.246093 12.121094 4.695312c-5.113281-9.65625-8.808594-19.96875-10.980469-30.777343-5.292968-26.359376-.863281-54.363282 12.476563-78.851563l10.558593-19.382813 14.121094 16.960938c44.660156 53.648438 101.226563 85.472656 168.363282 94.789062-2.742188-18.902343-.6875-37.144531 6.113281-53.496093 7.917969-19.039063 22.003906-35.183594 40.722656-46.691407 20.789063-12.777343 46-18.96875 70.988281-17.433593 26.511719 1.628906 50.582032 11.5625 69.699219 28.746093 9.335937-2.425781 16.214844-5.015624 25.511719-8.515624 5.59375-2.105469 11.9375-4.496094 19.875-7.230469l29.25-10.078125-19.074219 54.476562c1.257813-.105468 2.554687-.195312 3.910156-.253906l31.234375-1.414062-18.460937 25.230468c-1.058594 1.445313-1.328125 1.855469-1.703125 2.421875-1.488282 2.242188-3.339844 5.03125-28.679688 38.867188-6.34375 8.472656-9.511718 19.507812-8.921875 31.078125 2.246094 43.96875-3.148437 83.75-16.042969 118.234375-12.195312 32.625-31.09375 60.617187-56.164062 83.199219-31.023438 27.9375-70.582031 47.066406-117.582031 56.847656-23.054688 4.796875-47.8125 7.203125-73.4375 7.203125zm0 0"/>
+            </g>
+        </symbol>
+
+        <symbol id="linkedin" viewBox="0 0 512 512">
+            <g>
+                <path d="M426.368,164.128c-1.216-0.384-2.368-0.8-3.648-1.152c-1.536-0.352-3.072-0.64-4.64-0.896
+			c-6.08-1.216-12.736-2.08-20.544-2.08c-66.752,0-109.088,48.544-123.04,67.296V160H160v352h114.496V320
+			c0,0,86.528-120.512,123.04-32c0,79.008,0,224,0,224H512V274.464C512,221.28,475.552,176.96,426.368,164.128z"/>
+            </g>
+            <g>
+                <circle cx="56" cy="56" r="56"/>
+            </g>
+            <g>
+                <rect y="160" width="114.496" height="352"/>
+            </g>
+        </symbol>
+     </svg>
+
+     <!-- Portfolio -->
+
+    <section class="portfolio" >
+        <div class="container">
+
+            <h2 class="portfolio_title">Portfolio</h2>
+            <p class="portfolio_subtitle">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+
+            <div class="portfolio__menu">
+                <ul class="portfolio__list">
+                    <li><a class="portfolio__list_item portfolio_active" href="#">All</a></li>
+                    <li><a class="portfolio__list_item" href="#">Web Design</a></li>
+                    <li><a class="portfolio__list_item" href="#">Graphic Design</a></li>
+                    <li><a class="portfolio__list_item" href="#">Artwork</a></li>
+                </ul>
+            </div>
+
+            <div class="portfolio__images">
+
+                <div class="portfolio_images_item">
+                    <img src="assets/img/portfolio/1.png" alt="" class="portfolio__img1">
+                </div>
+
+                <div class="portfolio_images_item">
+                    <img src="assets/img/portfolio/2.png" alt="" class="portfolio__img2">
+                </div>
+
+                <div class="portfolio_images_item">
+                    <img src="assets/img/portfolio/3.png" alt="" class="portfolio__img3">
+                </div>
+                
+                <div class="portfolio_images_item">
+                    <img src="assets/img/portfolio/4.png" alt="" class="portfolio__img4">
+                </div>
+
+                <div class="portfolio_images_item">
+                    <img src="assets/img/portfolio/5.png" alt="" class="portfolio__img5">
+                </div>
+
+                <div class="portfolio_images_item">
+                    <img src="assets/img/portfolio/6.png" alt="" class="portfolio__img6">
+                </div>
+
+                <div class="portfolio_images_item">
+                    <img src="assets/img/portfolio/7.png" alt="" class="portfolio__img7">
+                </div>
+
+                <div class="portfolio_images_item">
+                    <img src="assets/img/portfolio/8.png" alt="" class="portfolio__img8">
+                </div>
+
+                <div class="portfolio_images_item">
+                    <img src="assets/img/portfolio/9.png" alt="" class="portfolio__img9">
+                </div>
+
+                <div class="portfolio_images_item">
+                    <img src="assets/img/portfolio/10.png" alt="" class="portfolio__img10">
+                </div>
+
+                <div class="portfolio_images_item">
+                    <img src="assets/img/portfolio/11.png" alt="" class="portfolio__img11">
+                </div>
+
+                <div class="portfolio_images_item">
+                    <img src="assets/img/portfolio/12.png" alt="" class="portfolio__img12">
+                </div>
+
+            </div>
+
+        </div> <!-- /container -->
+    </section> <!-- /portfolio  -->
+
+
+    <!-- About -->
+
+    <section class="about">
+        <div class="container">
+
+            <h2 class="about__title">About Us</h2>
+            <p class="about__subtitle">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+
+            <div class="about__inner">
+
+                <div class="about__item">
+                    <img src="assets/img/about/1.png" alt="photo" class="about__photo ">
+                    <div class="about__name">Adam Jensen</div>
+                    <div class="about__text  about__text__first">Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</div>
+                    <div class="social">
+                        <a href="https://www.facebook.com/" target="_blank" class="social__item">
+                            <svg class="social__icon">
+                                <use xlink:href='#facebook'></use>
+                            </svg>
+                        </a>
+                        <a href="https://myaccount.google.com/" target="_blank" class="social__item">
+                            <svg class="social__icon">
+                                <use xlink:href='#google'></use>
+                            </svg>
+                        </a>
+                        <a href="https://twitter.com/?lang=ru" target="_blank" class="social__item">
+                            <svg class="social__icon">
+                                <use xlink:href='#twitter'></use>
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/" target="_blank" class="social__item">
+                            <svg class="social__icon">
+                                <use xlink:href='#linkedin'></use>
+                            </svg>
+                        </a>
+                    </div>    
+                </div>
+
+                <div class="about__item">
+                    <img src="assets/img/about/2.png" alt="photo" class="about__photo">
+                    <div class="about__name  about__name__second">Desmond Miles</div>
+                    <div class="about__text">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</div>
+                    <div class="social">
+                        <a href="https://www.facebook.com/" target="_blank" class="social__item">
+                            <svg class="social__icon">
+                                <use xlink:href='#facebook'></use>
+                            </svg>
+                        </a>
+                        <a href="https://myaccount.google.com/" target="_blank" class="social__item">
+                            <svg class="social__icon">
+                                <use xlink:href='#google'></use>
+                            </svg>
+                        </a>
+                        <a href="https://twitter.com/?lang=ru" target="_blank" class="social__item">
+                            <svg class="social__icon">
+                                <use xlink:href='#twitter'></use>
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/" target="_blank" class="social__item">
+                            <svg class="social__icon">
+                                <use xlink:href='#linkedin'></use>
+                            </svg>
+                        </a>
+                    </div>  
+                </div>
+
+                <div class="about__item">
+                    <img src="assets/img/about/3.png" alt="photo" class="about__photo">
+                    <div class="about__name">Scolara Visari</div>
+                    <div class="about__text">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</div>
+                    <div class="social">
+                        <a href="https://www.facebook.com/" target="_blank" class="social__item">
+                            <svg class="social__icon">
+                                <use xlink:href='#facebook'></use>
+                            </svg>
+                        </a>
+                        <a href="https://myaccount.google.com/" target="_blank" class="social__item">
+                            <svg class="social__icon">
+                                <use xlink:href='#google'></use>
+                            </svg>
+                        </a>
+                        <a href="https://twitter.com/?lang=ru" target="_blank" class="social__item">
+                            <svg class="social__icon">
+                                <use xlink:href='#twitter'></use>
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/" target="_blank" class="social__item">
+                            <svg class="social__icon">
+                                <use xlink:href='#linkedin'></use>
+                            </svg>
+                        </a>
+                    </div> 
+                        
+                </div> <!-- /about__item -->
+            </div> <!-- /about__inner -->
+        </div> <!-- /Container -->
+    </section> <!-- /About-->  
+
+  </body>
+</html>
