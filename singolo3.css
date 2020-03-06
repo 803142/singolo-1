@@ -161,6 +161,11 @@ body {
     outline: none;
 }
 
+.input:focus {
+    background-color:  rgb(204, 49, 49);
+    border: 1px solid rgb(247, 0, 0);
+}
+
 .input::placeholder {
     color: #f48c8f;
     font-family: 'Lato', sans-serif;
